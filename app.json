@@ -1,29 +1,38 @@
 {
   "expo": {
-    "name": "myApp",
-    "slug": "myApp",
+    "name": "VssID",
+    "slug": "redmi",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/iconexpox.png",
+
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
+      "image": "./assets/iconexpox.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
+
     "android": {
+      "package": "com.muoi123.myApp",
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logoID.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "splash": {
+        "image": "./assets/iconexpox.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+
+    "ios": {
+      "bundleIdentifier": "com.muoi123.myApp",
+      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28591824-a61d-493b-84ee-ed946c9c5f73"
+      }
     }
   }
 }
